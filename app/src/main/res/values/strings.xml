@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MasterClass_Tema_2</string>
+    <string name="mis_tareas">MIS TAREAS</string>
+    <string name="iniciar_sesion">INICIAR SESION</string>
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="finalizado">Finalizado</string>
+</resources>

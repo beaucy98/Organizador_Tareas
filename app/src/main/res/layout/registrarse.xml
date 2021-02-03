@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/fondo_1" />
+
+    <TextView
+        android:id="@+id/textView_registrarse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/spot"
+        android:text="@string/registrarse"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/RegUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="60dp"
+        android:ems="10"
+        android:fontFamily="@font/germania_one"
+        android:hint="usuario"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/RegPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="60dp"
+        android:ems="10"
+        android:fontFamily="@font/germania_one"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/RegNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="60dp"
+        android:ems="10"
+        android:fontFamily="@font/germania_one"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/RegApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="60dp"
+        android:ems="10"
+        android:fontFamily="@font/germania_one"
+        android:hint="Apellido"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnRegRegistrar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginRight="100dp"
+        android:background="#000000"
+        android:text="REGISTRARSE"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:iconTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnRegCancelar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginRight="100dp"
+        android:background="#000000"
+        android:text="CANCELAR"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:iconTint="#FFFFFF" />
+
+</FrameLayout>
